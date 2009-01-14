@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://livewriterfox/skin/browser.css" type="text/css"?>
+
+<overlay id="livewritefoxoverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+// This imports our javascript.
+
+<script type="application/x-javascript" src="chrome://livewriterfox/content/livewriterfox.js">
+</script>
+
+
+// This is for the right click menu.
+
+<popup id="contentAreaContextMenu">
+  <menuitem id="livewriterfox" label="Blog It from Windows Live Writer" class="menuicon"  insertafter="context-stop" oncommand="blogit();"/>
+</popup>
+
+
+// toolbar button
+<toolbox id="navigator-toolbox">
+      <toolbarpalette id="BrowserToolbarPalette">
+	  <toolbarbutton id="livewriterfoxButton" class="menuicon"
+                 label="Blog It"
+                 tooltiptext="Blog It from Windows Live Writer"
+                 oncommand="blogit();"/>
+	
+      </toolbarpalette>
+  </toolbox>
+
+// This is for the Tools menu.
+
+<menupopup id="menu_ToolsPopup">
+	<menuitem insertafter="devToolsSeparator" label="Blog it from Windows Live Writer" class="menuicon"	oncommand="blogit();" />	
+</menupopup>
+
+</overlay>
+

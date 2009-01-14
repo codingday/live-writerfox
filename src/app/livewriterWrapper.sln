@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "livewriterWrapper", "livewriterWrapper\livewriterWrapper.csproj", "{B9A5E3AB-3407-4D51-9309-32EBB30F12E3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B9A5E3AB-3407-4D51-9309-32EBB30F12E3}.Debug.ActiveCfg = Debug|.NET
+		{B9A5E3AB-3407-4D51-9309-32EBB30F12E3}.Debug.Build.0 = Debug|.NET
+		{B9A5E3AB-3407-4D51-9309-32EBB30F12E3}.Release.ActiveCfg = Release|.NET
+		{B9A5E3AB-3407-4D51-9309-32EBB30F12E3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
